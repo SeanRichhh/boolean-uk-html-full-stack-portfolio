@@ -1,0 +1,13 @@
+*{
+    box-sizing: border-box;
+
+}
+html{
+    scroll-behavior: smooth;
+}
+/* Home*/
+.header{
+   border-top: 10px;
+    background-color: rgb(211, 107, 81);
+}
+
