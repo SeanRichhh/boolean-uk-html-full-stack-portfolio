@@ -1,23 +1,203 @@
 *{
     box-sizing: border-box;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
 }
 html{
     scroll-behavior: smooth;
 }
-/* Home*/
-.header{
-   border-top: 10px;
-    background-color: rgb(211, 107, 81);
+h2{
+  font-size: 40px;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  color: rgba(41, 40, 40, 0.918);
 }
+h3{
+  font-size:25px ;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+h4{
+  font-size: 30px;
+  margin-bottom: 10px;
+
+}
+
+
+p{
+  font-size: 20px;
+}
+
+
+/* Home*/
 .three-column-grid__expand-two {
     display: grid;
-    grid-template-columns: 200px 1fr 200px;
+    grid-template-columns: auto 1fr auto;
     column-gap: 5px;
   }
-.expand{
-  min-width: 40px;
-  min-height: 40px;
-  padding: 4px;
-  border: 2px dotted lightcoral;
+
+.center-grid {
+    display: grid;
+    grid-template-columns: 600px;
+    place-content: center;
+  }
+
+.top-of-page{
+  display: grid;
+  grid-template-rows: auto 1fr;
+  background-color: #99CCCC;
+  border-top:  4px solid rgb(61, 59, 59);
+}
+
+/*Nav-bar */
+
+.logo{
+  color: white;
+  margin: 25px;
+  font-size: 45px;
+}
+.nav-bt{
+font-size: 25px;
+margin:20px;
+background-color: white;
+border: none;
+border-radius: 5px;
+margin-top: 43px;
+}
+
+a:link, a:visited{
+  text-decoration: none;
+  color: #99CCCC;
+}
+/* Main Center*/
+
+h1{
+  color: white;
+  font-size: 60px;
+}
+.main-p{
+  color: white;
+font-size: 20px;
+margin-top: 50px;
+margin-bottom: 70px;
+}
+/* Main paragraph styling */
+
+.black{
+  color: black;
+}
+
+.underlined{
+  text-decoration: underline;
+  font-style: oblique;
+}
+
+
+
+
+/* About Me */
+.top-of-about{
+  border-top:  8px solid rgb(61, 59, 59);
+}
+
+.center-grid-about {
+  display: grid;
+  grid-template-columns:250px;
+  place-content: center;
+}
+.center-h2{
+text-align: center;
+}
+.two-column-list{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-bottom: 70px;
+}
+
+
+/* Portfolio */
+.top-of-portfolio{
+  border-top: 9px solid rgb(61, 59, 59);
+  background-color: pink;
+}
+.three-column-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr; /* or repeat(3, 1fr)*/
+  column-gap: 5px;
+  margin-bottom: 80px;
+}
+.center-grid-portfolio {
+  display: grid;
+  grid-template-columns:1000px;
+  place-content: center;
+}
+
+.title-border{
+  border: 8px solid rgb(150, 31, 41);
+  padding:25px;
+  margin: 10px;
+  border-radius: 10px;
+  background-color: white;
+}
+
+.links{
+  list-style: none;
+  padding: 0px;
+  text-align: center;
+  margin-top: 9px;
+}
+
+.read-more-btn{
+  background-color: rgb(150, 31, 41);
+  border: none;
+  border-radius: 15px;
+  padding: 10px;
+  padding-left: 70px;
+  padding-right: 70px;
+  font-size: 15px;
+  margin-top: 30px;
+}
+
+.read-more:visited{
+  color: white;
+}
+
+
+.repo:visited{
+  color: rgb(150, 31, 41); 
+}
+
+.repo:link{
+  text-decoration: underline;
+}
+
+/* Experience */
+
+.top-of-experience{
+  border-top: 9px solid rgb(61, 59, 59);
+}
+
+/*Footer */
+footer{
+  margin-top: 80px;
+  background-color:rgb(61, 59, 59) ;
+}
+
+h5{
+  font-size: 30px;
+  color: white;
+  margin: 10px;
+
+}
+.footer-list{
+  list-style: none;
+}
+.two-column-grid {
+  display: grid;
+  grid-template-columns: auto 1fr;
+}
+
+.footer-logo{
+  margin-top: 20px;
 }
